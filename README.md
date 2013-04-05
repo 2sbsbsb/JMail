@@ -39,7 +39,7 @@ String msgSubject = "Test Message";
 
 String msgBody = "Test Message Body";
 
-// Include attachments if needed. 
+// Include attachments if needed which should be the path of the file. 
 
 String[] attachmentPaths =  null; 
 
@@ -47,5 +47,5 @@ String[] attachmentPaths =  null;
 
 emailServices.sendMail(toAddresses, ccAddresses, msgSubject, msgBody, attachmentPaths);
 
-
+It is as simple as that. 
 
